@@ -1,13 +1,13 @@
 {
   "name": "starlabs-pms",
   "version": "1.0.0",
-  "description": "Your project description",
+  "description": "This Project Management System is designed to empower project managers, teams, and stakeholders to seamlessly plan, execute, and monitor projects of all sizes. With intuitive features and a user-friendly interface, this system simplifies complex workflows and keeps projects on track.",
   "main": "index.js",
- "scripts": {
+   "scripts": {
     "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
     "start-frontend": "cd frontend && npm run dev",
     "start-backend": "cd backend && npm start"
-}
+},
   "author": "Labinot Veseli, Aid Maliqi, Bledi Hajrullahu",
   "license": "MIT License",
   "devDependencies": {
