@@ -5,7 +5,7 @@
   "main": "index.js",
    "scripts": {
     "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
-    "start-frontend": "cd frontend && npm run dev",
+    "start-frontend": "cd frontend && npm run build-vite",
     "start-backend": "cd backend && npm start"
 },
   "author": "Labinot Veseli, Aid Maliqi, Bledi Hajrullahu",
