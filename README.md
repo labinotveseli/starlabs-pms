@@ -26,7 +26,7 @@
   - Redux
   - Axios
   - Material-UI
-  - Others...
+  - and more...
   </br>
   
 - <b>Backend:</b><b>
@@ -36,7 +36,7 @@
   - JWT (JSON Web Tokens)
   - Socket.io
   - Firebase
-  - Others...
+  - and more...
   
 <hr>
 <h2>App walk-through:</h2>
