@@ -1,0 +1,16 @@
+{
+  "name": "starlabs-pms",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run dev"
+  },
+  "author": "Labinot Veseli, Aid Maliqi, Bledi Hajrullahu",
+  "license": "MIT License",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
